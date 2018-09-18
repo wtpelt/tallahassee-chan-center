@@ -1,0 +1,310 @@
+/*
+CTC Separate Stylesheet
+Updated: 2018-09-07 16:33:37
+*/
+
+body {
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation: fadein ease in 5s;
+    -moz-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    animation: fadein 5s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    animation-delay: 0s;
+}
+a.button, a.tp-button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    font-size: 16px;
+    padding: 6px 8px;
+}
+#Sliding-top a.sliding-top-control span {
+    color: black !important;
+}
+#Header {
+    min-height: 0 !important;
+}
+#Top_bar .column {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+#Top_bar .search_wrapper input[type="text"] {
+    font-size: 18px !important;
+}
+#Top_bar .search_wrapper .icon_close {
+    opacity: .9 !important;
+}
+#Top_bar .wpml-languages {
+    display: none;
+}
+#Overlay {
+    background-color: rgba(255, 255, 255, .97);
+}
+#Subheader {
+    padding: 15px;
+}
+#Subheader .title {
+    font-size: 28px;
+}
+#Footer {
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards !important;
+    -moz-animation-fill-mode: forwards !important;
+    animation-fill-mode: forwards !important;
+    -webkit-animation: fadein ease in 10s !important;
+    -moz-animation: fadein 10s !important;
+    -ms-animation: fadein 10s !important;
+    -o-animation: fadein 10s !important;
+    animation: fadein 10s !important;
+    -webkit-animation-delay: 2s !important;
+    -moz-animation-delay: 2s !important;
+    animation-delay: 2s !important;
+}
+.button-stroke a:hover.button, .button-stroke a:hover.tp-button {
+    background-color: #f7f7f7 !important;
+    color: #8eb610;
+}
+#Content img {
+    border: 5px solid white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.3);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,.3);
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+.wptpa_cover img {
+    border: 0 solid white !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+    -o-box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+    box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+}
+#Top_bar .one.column {
+    width: 100%;
+}
+.responsive-menu-toggle:before {
+    content: "MENU";
+    position: absolute;
+    margin-top: -3px;
+    font-size: 11px;
+}
+.responsive-menu-toggle:hover {
+    text-decoration: none;
+}
+.title {
+    font-weight: 300 !important;
+    font-style: normal !important;
+}
+.DD-logo {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+.page-id-4 #Header {
+    min-height: 100px !important;
+}
+.page-id-4 #logo {
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards !important;
+    -moz-animation-fill-mode: forwards !important;
+    animation-fill-mode: forwards !important;
+    -webkit-animation: fadein ease in 10s !important;
+    -moz-animation: fadein 10s !important;
+    -ms-animation: fadein 10s !important;
+    -o-animation: fadein 10s !important;
+    animation: fadein 10s !important;
+    -webkit-animation-delay: 2s !important;
+    -moz-animation-delay: 2s !important;
+    animation-delay: 2s !important;
+}
+.page-id-4 .icon-menu-fine {
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards !important;
+    -moz-animation-fill-mode: forwards !important;
+    animation-fill-mode: forwards !important;
+    -webkit-animation: fadein ease in 5s !important;
+    -moz-animation: fadein 5s !important;
+    -ms-animation: fadein 5s !important;
+    -o-animation: fadein 5s !important;
+    animation: fadein 5s !important;
+    -webkit-animation-delay: 1s !important;
+    -moz-animation-delay: 1s !important;
+    animation-delay: 1s !important;
+}
+.page-id-4 #Footer {
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards !important;
+    -moz-animation-fill-mode: forwards !important;
+    animation-fill-mode: forwards !important;
+    -webkit-animation: fadein ease in 10s !important;
+    -moz-animation: fadein 10s !important;
+    -ms-animation: fadein 10s !important;
+    -o-animation: fadein 10s !important;
+    animation: fadein 10s !important;
+    -webkit-animation-delay: 2s !important;
+    -moz-animation-delay: 2s !important;
+    animation-delay: 2s !important;
+}
+.page-id-4 .wpb_wrapper {
+    opacity: 0;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation: fadein ease in 5s;
+    -moz-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    animation: fadein 5s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    animation-delay: 0s;
+}
+#AboutUsLotus img {
+    border: 5px solid white;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    border-radius: 5px !important;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,.3) !important;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.3) !important;
+    -o-box-shadow: 0 0 5px rgba(0,0,0,.3) !important;
+    box-shadow: 0 0 5px rgba(0,0,0,.3) !important;
+}
+.icon-facebook {
+    font-size: 25px;
+}
+.icon-instagram {
+    font-size: 25px;
+}
+.icon-email {
+    font-size: 21px;
+}
+.overlay-menu-toggle {
+    -moz-border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+.logo {
+    border-color: rgba(0,0,0,.05) !important;
+    border-bottom-width: 1px !important;
+}
+.menu_wrapper {
+    border-bottom: solid 1px rgba(0,0,0,.05);
+}
+.widgets_wrapper {
+    background-color: white !important;
+}
+.sliding-top-control {
+    border-top-color: transparent !important;
+}
+.plus icon-down-open-mini {
+    background-color: black !important;
+}
+.page-id-4 #Subheader {
+    display: none;
+}
+.wptpa_wrapper .wptpa_heading span {
+    font-size: 18px;
+}
+.page-id-1730 .vc_tta-title-text {
+    font-size: 85%;
+    font-weight: 300 !important;
+}
+.wptpa_social_share, .wptpa_open_nw {
+    display: none;
+}
+.wptpa_wrapper {
+    border: solid 3px rgba(251, 251, 252, 1);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.wptpa_wrapper .wptpa_marquee.on {
+    border: none;
+}
+#talksPara {
+    color: #444;
+}
+a:active {
+    color: #107eb6 !important;
+}
+.button-stroke a:hover.button.talksBtn:hover {
+    background-color: #8eb610 !important;
+    color: #fff !important;
+}
+.talksBtn {
+    text-transform: uppercase;
+}
+.menu-item a:hover {
+    color: #8eb610 !important;
+}
+#logo img:hover {
+    opacity: .7;
+}
+#talksList {
+    line-height: 44px;
+    font-size: 24px;
+}
+#talksList a {
+    -moz-transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    color: #8eb610;
+}
+#talksList a:hover {
+    text-decoration: none;
+    color: #444;
+}
+#talksList a::before {
+    content: url(https://tallahasseechan.org/wp-content/uploads/2017/12/enso_gg-circle-e1512795174747.png);
+    padding-right: 12px;
+}
+@media only screen and (max-width: 1239px) {
+.header-stack div.menu_wrapper a.responsive-menu-toggle {
+    position: absolute !important;
+    margin: -17px 0 !important;
+}
+#search_button {
+    display: none !important;
+}
+}
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+.wptpa_cover_viewer {
+    display: none !important;
+}
+}
+@media only screen and (max-width: 767px) {
+#Footer {
+    background-image: none !important;
+}
+}
+@media only screen and (max-width: 677px) {
+.wptpa_cover_viewer {
+    display: none !important;
+}
+}
+@media only screen and (min-width: 768px) {
+.page-id-59 #Content {
+    min-height: 940px;
+}
+}
